@@ -1,0 +1,83 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "BIEL SCRIPTS HUB", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+    Name = "BLOX FRUITS",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "SCRIPTS BLOX FRUITS"
+})
+
+Tab:AddButton({
+    Name = "BIEL HUB",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/THDEVZI/Biel-hub/refs/heads/main/bielhub.lua"))()
+    end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "FUTEBOL",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "BLUE LOCK"
+})
+
+Tab:AddButton({
+	Name = "BIEL BLUE LOCK",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/THDEVZI/BIELHUB_BLUELK/refs/heads/main/biel%20BLUE%20lock.txt"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "BATTLE",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "BIEL HUB (BED WARS)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/THDEVZI/BIEL-HUB-BED/refs/heads/main/BIEL%20BED.txt"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "OUTROS GAMES",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "BIEL HUB (BROOKHAVEN)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/THDEVZI/BIEL-HUB-BROOKHAVEN/refs/heads/main/BIEL%20HUB%20BROOK.txt"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "BIEL HUB (SPEED OF LEGENDS)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/THDEVZI/BIEL-HUB-SPEED-/refs/heads/main/BIEL%20HUB%20(SPEED).txt"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "ADM",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "BIEL FLY",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+  	end    
+})
