@@ -76,7 +76,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-	Name = "BIEL FLY",
+	Name = "BIEL UNIVERSAL",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/THDEVZI/OP-BIEL/refs/heads/main/BIEL%20UNIHUB.txt"))()
   	end    
@@ -86,13 +86,6 @@ Tab:AddButton({
 	Name = "BIEL INFINITY",
 	Callback = function()
       		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "BIEL PAINEL OP",
-	Callback = function()
-      		loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
   	end    
 })
 
