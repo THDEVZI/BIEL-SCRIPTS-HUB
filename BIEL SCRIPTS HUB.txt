@@ -88,3 +88,17 @@ Tab:AddButton({
       		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
   	end    
 })
+
+Tab:AddButton({
+	Name = "BIEL KILL AURA",
+	Callback = function()
+      		loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "BIEL CLICK",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/The-telligence/main/MC%20KSystem%202"))()
+  	end    
+})
