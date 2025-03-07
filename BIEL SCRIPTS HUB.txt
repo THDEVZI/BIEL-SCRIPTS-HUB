@@ -95,3 +95,10 @@ Tab:AddButton({
       		loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
   	end    
 })
+
+Tab:AddButton({
+	Name = "BIEL HUB MM2",
+	Callback = function()
+      		loadstring(Game:HttpGet("https://raw.githubusercontent.com/THDEVZI/BIEL-HUB-MM2/refs/heads/main/MM2%20PAINEL.txt"))()
+  	end    
+})
